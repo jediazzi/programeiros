@@ -1,0 +1,63 @@
+/*Imports de  fonts*/
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+.title-main{
+	font-family: 'Oswald';
+	margin-bottom: 50px;
+}
+.title-text{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+.content-posts{
+	display: inline-flex;
+	background-color: gray;
+	width: 1200px;
+	height: 0 auto;
+}
+
+.bg-gray:hover {
+	background-color: #2c3e50 !important;
+}
+
+.td-actions {
+	width: 100px;
+}
+
+.btn-mais {
+	margin-top: -20px;
+}
+h3.titulo-thumb {
+	padding-left: 15px !important;
+}
+.thumbnail {
+	padding:10px;
+}
+.thumbnail > a {
+	color: #000;
+}
+
+.thumbnail:hover > a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* PÁGINA DE CONTATO */
+
+.contato {
+	margin-bottom: 50px;
+}
+
+.contato form input,
+.contato form input:focus,
+.contato form textarea:focus,
+.contato form textarea {
+	border: none;
+	box-shadow: none;
+	border-bottom: 2px solid #f14444;
+	border-radius: 0px;
+}
+
+.contato form textarea {
+	width: 100%;
+}
